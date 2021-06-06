@@ -42,7 +42,7 @@ function test(states){
          }
          console.log(ciclo);	
 	if(ciclo){setTimeout(function(){ test(states) }, 2000);}
-   else{console.log("Visito los 8 estados")}
+   else{document.getElementById("log").innerHTML="<br>Visito los 8 estados";}
 }
 
 var states = ["A","DIRTY","DIRTY"];
